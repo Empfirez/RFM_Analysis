@@ -156,7 +156,7 @@ segment_counts = rfm_df['Segment_Label'].value_counts()
 
 After careful analysis, the results are as follows:
 1.  14.9% of total customers are champions with an average spending of $8121, with an average transaction count of 14 and has made a purchase within the last 9 days on average.
-2.  20.4% of total customers are at risk of churning with an average spending of only $230, average trnsaction count of 1 and has made a purchase within the last 224 days on average.
+2.  20.4% of total customers are at risk of churning with an average spending of only $230, average transaction count of 1 and has made a purchase within the last 224 days on average.
 3.  47.6% of total customers are either at risk of churning or needs attention
 4.  Most of the purchases are made within the United Kingdom which is expected for a UK based and registered company
 5.  France and Germany constitutes the next highest purchase counts
