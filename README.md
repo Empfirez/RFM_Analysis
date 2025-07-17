@@ -174,7 +174,7 @@ Based on analysis above, here are some recommended actions to take in order to i
 2. Offer referral rewards for high value customers to try and bring over more potential champions/loyal customers
 3. Win back at risk customers by implementing welcome back discounts or coupons to increase engagement
 4. Send out surveys for both champions and at risk customers to have a better understanding of customer satisfaction as well as any areas of improvement
-5. As Frace and Germany show higher champion ratios compared to UK, more effort should be spent on growing the France and Germant market through marketing campaigns
+5. As France and Germany shows higher champion ratios compared to the UK, more effort should be spent on growing the French and German market through tailored marketing campaigns
 6. Engage in product bundling and cross-selling based on customer interests
 7. Calculate Customer Lifetime Value to know which customer segments are worth targeting
 8. Analyze any seasonal trends and engage in seasonal promotions for high value customers
