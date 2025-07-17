@@ -63,7 +63,7 @@ Additionally, the **invoice number** is a 6-digit integral number uniquely assig
 
 In the data preparation phase of the project, we performed the following tasks:
 1.  Data loading and inspection
-2.  Formattting data fields into their appropriate data types
+2.  Formatting data fields into their appropriate data types
 3.  Handling of missing customerID values and invoice date from the dataset and checking for any duplicates
 4.  Removing cancelled invoices from the dataset
 5.  Removing all unit prices with $0 values from the dataset
@@ -73,7 +73,7 @@ In the data preparation phase of the project, we performed the following tasks:
 
 EDA involves exploring the dataset and creating new features to uncover insights into customer spending patterns as well as calculating RFM values. The steps taken are as follows:
 -  Created new column LastTransaction which stores the latest transaction date of each customer
--  Created new column days_since_last_trans which takes the difference between the latest transaction date in the dataset and the latest transaction date for each customerid
+-  Created new column days_since_last_trans which takes the difference between the latest transaction date in the dataset and the latest transaction date for each customerID
 -  Created TotalAmount column which stores the total amount spent for each transaction
 -  Created rfm_df which displays days since last transaction, total number of transactions and total spendings for each unique customerID
 
@@ -170,11 +170,23 @@ After careful analysis, the results are as follows:
 ### Recommendations
 
 Based on analysis above, here are some recommended actions to take in order to increase sales revenue:
-1. 
+1. Retain high value customers such as champions and loyal customers by implementing exclusive loyalty programs as well as premium perks
+2. Offer referral rewards for high value customers to try and bring over more potential champions/loyal customers
+3. Win back at risk customers by implementing welcome back discounts or coupons to increase engagement
+4. Send out surveys for both champions and at risk customers to have a better understanding of customer satisfaction as well as any areas of improvement
+5. As Frace and Germany show higher champion ratios compared to UK, more effort should be spent on growing the France and Germant market through marketing campaigns
+6. Engage in product bundling and cross-selling based on customer interests
+7. Calculate Customer Lifetime Value to know which customer segments are worth targeting
+8. Analyze any seasonal trends and engage in seasonal promotions for high value customers
+   
 
 
 
 
 ### Limitations
 
--  
+-  While RFM is a powerful model for customer segmentation, it only considers a few key factors while excluding other meaningful factors such as age,preferences,brand loyalty and external competition which limits its effectiveness
+-  Equal weighting is given to all three factors which might not give an accurate representation of RFM value as recency is more indicative of future spending behaviour
+-  RFM analysis also does not capture changes in customer behaviour which means that customers might not show up as being at risk until it is too late 
+-  Due to some customerIDs having multiple countries, the first country is used for analysis instead
+  
